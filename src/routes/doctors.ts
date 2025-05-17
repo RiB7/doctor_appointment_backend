@@ -55,7 +55,7 @@ router.post(
 );
 
 
-// To add a new doctor
+// To add new doctors
 router.post('/addDoctors', async (req: Request, res: Response) => {
     try {
         const doctors = req.body;
